@@ -8,7 +8,7 @@ terraform {
   
    backend "s3" {
     bucket = "poc-codepipeline-backend"
-    key    = "terraform.tfstate"
+    key    = "backend"
     region = "ap-south-1"
   }
 }
