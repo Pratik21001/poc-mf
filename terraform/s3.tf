@@ -1,6 +1,5 @@
 resource "aws_s3_bucket" "lambda_s3_buckets" {
     bucket = "poc-mf-lambda"
-    acl    = "private"
     force_destroy = true
 }
 
