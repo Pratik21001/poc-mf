@@ -23,3 +23,8 @@ resource "aws_s3_bucket" "pipeline_s3_bucket-1" {
     bucket = "poc-mf-pratik-testing-bucket-1"
     force_destroy = true
 }
+
+resource "aws_s3_bucket" "pipeline_s3_bucket-2" {
+    bucket = "poc-mf-pratik-testing-bucket-2"
+    force_destroy = true
+}
