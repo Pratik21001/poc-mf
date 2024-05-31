@@ -14,3 +14,7 @@ resource "aws_s3_bucket" "pipeline_s3_bucket_28" {
 }
 
 
+resource "aws_s3_bucket" "pipeline_s3" {
+    bucket = "poc-mf-pratik-burn-31-07-2025"
+    force_destroy = true
+}
