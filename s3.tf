@@ -5,10 +5,10 @@ resource "aws_s3_bucket" "pipeline_s3_bucket_10" {
 }
 
 
-# resource "aws_s3_bucket" "pipeline_s3" {
-#     bucket = "poc-mf-pratik-burn-31-07-2025"
-#     force_destroy = true
-# }
+resource "aws_s3_bucket" "pipeline_s3" {
+    bucket = "poc-mf-pratik-burn-31-07-2025"
+    force_destroy = true
+}
 
 # resource "aws_s3_bucket" "pipeline_s3_bucket-1" {
 #     bucket = "poc-mf-pratik-testing-bucket-1"
