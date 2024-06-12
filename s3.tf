@@ -19,6 +19,11 @@ resource "aws_s3_bucket" "pipeline_s3_mahindra" {
     bucket = "poc-mf-pratik-burn-19-09-2029"
     force_destroy = true
 }
+
+resource "aws_s3_bucket" "pipeline_s3_finance" {
+    bucket = "poc-mahindra-finance-24-07-2025"
+    force_destroy = true
+}
 # resource "aws_s3_bucket" "pipeline_s3_bucket-1" {
 #     bucket = "poc-mf-pratik-testing-bucket-1"
 #     force_destroy = true
